@@ -23,3 +23,9 @@ Only SURFConext authenticated users should be allowed to register/build a repo a
 
 We could modify binderhub so that when a anonymous user visits https://binder.surfsara.nl/v2/gh/binder-examples/requirements/master
 it checks if the repo has been build then launches it else a login is required to continue.
+
+## Run binders on SURF infrastructure
+
+There is a issue (https://github.com/jupyterhub/binderhub/issues/63#issuecomment-337719718) on binderhub about federation. Where the mybinder.org website could have a choice to select SURF infrastructure to run the selected repo on.
+
+The binder SURF infrastructure could be anonymous or require SURFConext login.
